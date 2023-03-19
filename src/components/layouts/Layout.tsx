@@ -21,8 +21,8 @@ export const Layout = ({ children, title }: PropsWithChildren<LayoutProps>) => {
         <meta
           property="og:description"
           content={`This is a page about ${title}`}
-        />  
-        <meta property="og:image" content={`${origin}/img/banner-pkm.webp`} />
+        />
+        <meta property="og:image" content={`${origin}/img/banner-pkm.png`} />
       </Head>
 
       <Navbar />
